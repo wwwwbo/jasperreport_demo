@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="test_reprot" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ddc826d5-9197-44ac-8170-0f49804af41f">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="name" class="java.lang.String"/>
+	<field name="sex" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="118" y="0" width="100" height="30" uuid="40fd1775-6eb5-4a90-bd5f-197040bb9197">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b2ce9f01-e637-4a9b-9a5f-e13a144d4885"/>
+				</reportElement>
+				<text><![CDATA[name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="313" y="0" width="100" height="30" uuid="b68351b6-50c1-4035-9581-c050788ab4d8">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="39f7592f-1e84-4079-9762-527836cee462"/>
+				</reportElement>
+				<text><![CDATA[sex]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="118" y="27" width="100" height="30" uuid="36a0a441-434a-4326-a94d-8a88b63ed6d6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b2ce9f01-e637-4a9b-9a5f-e13a144d4885"/>
+				</reportElement>
+				<textElement>
+					<font fontName="华文宋体" size="16"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="36" width="100" height="30" uuid="d235851e-ff14-4bef-9b54-4fa69e6c1e2e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="39f7592f-1e84-4079-9762-527836cee462"/>
+				</reportElement>
+				<textElement>
+					<font fontName="华文宋体" size="16"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sex}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
