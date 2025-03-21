@@ -28,7 +28,7 @@
           <mxGeometry x="20" y="250" width="100" height="75" as="geometry" />
         </mxCell>
         <mxCell id="cfTg0l-f0pAShHveTOmt-6" value="返回结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="20" y="650" width="100" height="50" as="geometry" />
+          <mxGeometry x="20" y="780" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cfTg0l-f0pAShHveTOmt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-2" source="cfTg0l-f0pAShHveTOmt-1" target="cfTg0l-f0pAShHveTOmt-6">
           <mxGeometry relative="1" as="geometry">
@@ -112,6 +112,20 @@
         <mxCell id="77e6c97f196da883-7" value="停电分析" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="640" y="20" width="160" height="880" as="geometry" />
         </mxCell>
+        <mxCell id="cfTg0l-f0pAShHveTOmt-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-7" source="cfTg0l-f0pAShHveTOmt-64" target="cfTg0l-f0pAShHveTOmt-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfTg0l-f0pAShHveTOmt-71" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfTg0l-f0pAShHveTOmt-70">
+          <mxGeometry x="-0.168" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfTg0l-f0pAShHveTOmt-64" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;调用中台接口&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;拓扑分析停电设备&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
+          <mxGeometry x="20" y="250" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="cfTg0l-f0pAShHveTOmt-63" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;调用中台接口&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;拓扑分析停电设备&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-7">
+          <mxGeometry x="20" y="350" width="100" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="cfTg0l-f0pAShHveTOmt-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-1" source="cfTg0l-f0pAShHveTOmt-1" target="cfTg0l-f0pAShHveTOmt-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -138,6 +152,32 @@
         </mxCell>
         <mxCell id="cfTg0l-f0pAShHveTOmt-59" value="停电分析" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
           <mxGeometry x="800" y="20" width="160" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="cfTg0l-f0pAShHveTOmt-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-1" source="cfTg0l-f0pAShHveTOmt-55" target="cfTg0l-f0pAShHveTOmt-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="302" as="targetPoint" />
+            <mxPoint x="610" y="670" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="560" y="730" />
+              <mxPoint x="630" y="730" />
+              <mxPoint x="630" y="230" />
+              <mxPoint x="710" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfTg0l-f0pAShHveTOmt-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="cfTg0l-f0pAShHveTOmt-64" target="cfTg0l-f0pAShHveTOmt-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="308" />
+              <mxPoint x="650" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfTg0l-f0pAShHveTOmt-69" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfTg0l-f0pAShHveTOmt-68">
+          <mxGeometry x="-0.847" relative="1" as="geometry">
+            <mxPoint y="-41" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
