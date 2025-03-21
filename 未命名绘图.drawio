@@ -115,11 +115,26 @@
         <mxCell id="cfTg0l-f0pAShHveTOmt-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-1" source="cfTg0l-f0pAShHveTOmt-1" target="cfTg0l-f0pAShHveTOmt-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="cfTg0l-f0pAShHveTOmt-60" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfTg0l-f0pAShHveTOmt-28">
+          <mxGeometry x="-0.5771" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cfTg0l-f0pAShHveTOmt-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="cfTg0l-f0pAShHveTOmt-27" target="cfTg0l-f0pAShHveTOmt-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="cfTg0l-f0pAShHveTOmt-61" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfTg0l-f0pAShHveTOmt-45">
+          <mxGeometry x="-0.5067" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cfTg0l-f0pAShHveTOmt-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-1" source="cfTg0l-f0pAShHveTOmt-33" target="cfTg0l-f0pAShHveTOmt-49">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfTg0l-f0pAShHveTOmt-62" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfTg0l-f0pAShHveTOmt-50">
+          <mxGeometry x="-0.5733" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="cfTg0l-f0pAShHveTOmt-59" value="停电分析" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
           <mxGeometry x="800" y="20" width="160" height="880" as="geometry" />
